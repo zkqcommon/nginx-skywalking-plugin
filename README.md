@@ -1,7 +1,7 @@
 # skywalking nginx插件
-功能：扩展skywalking链路监控对nginx组件的支持。结合openresty，使用lua脚本实现。
-说明：当前插件基于Skywalking5.x扩展，可做适当修改用于6.x。
-待做：链路数据上报，节点拓扑渲染。
+- 功能：扩展skywalking链路监控对nginx组件的支持。结合openresty，使用lua脚本实现。
+- 说明：当前插件基于Skywalking5.x扩展，可做适当修改用于6.x。
+- 待做：链路数据上报，节点拓扑渲染。
 
 ## 工程结构说明
 
