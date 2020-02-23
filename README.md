@@ -59,16 +59,9 @@ http {
 ## nginx skywalking agent配置
 所有配置集中在config.lua文件中。当前主要有两个配置：
 - 1: skywalking服务端连接
-> 开发、测试环境
-
 ```
-_M.collector_server_url = "http://naming.sw.res.yqxiu.cn:12801"
+_M.collector_server_url = "http://naming.xxxx.com:12801"
 
-```
-> 生产、预生产环境
-
-```
-_M.collector_server_url = "http://naming1.sw.res.eqxiu.com:12800"
 ```
 
 - 2: 配置skywalking识别agent的全局唯一标识
